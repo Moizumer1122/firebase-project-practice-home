@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import { Route,Routes } from 'react-router-dom'
 import AddUser from './pages/AddUser'
 import ReadProducts from './pages/ReadProducts'
+import UploadImage from './pages/UploadImage'
 function App() {
   return (
 <Routes>
@@ -12,6 +13,7 @@ function App() {
 <Route path='/register' element={<Register/>}/>
 <Route path='/login' element={<Login/>}/>
 <Route path='/read' element={<ReadProducts/>}/>
+<Route path='/upload' element={<UploadImage/>}/>
 
 </Routes>
  )
